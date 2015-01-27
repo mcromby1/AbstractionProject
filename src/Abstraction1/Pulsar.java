@@ -4,18 +4,11 @@ package Abstraction1;
  *
  * @author Matthew
  */
-public class Pulsar implements Star{
-    private double brightness;
-    private int rotation = 0;
+public class Pulsar extends Star{
+    private int pulseRate;
     
-    @Override
-    public void rotate(int r){
-        rotation += r;
+    public void pulse(){
+        
     }
-    
-    @Override
-    public void setBrightness(double b){
-        brightness = b;
-    }
-    
+
 }
